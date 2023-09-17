@@ -1,0 +1,689 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family:Work Sans,sans-serif;
+}
+
+
+.navbar_div{
+    padding:0 20px;
+    background-color: black;
+    position: fixed;
+    width:100%;
+    z-index:5;
+}
+.navbar_third_div{
+    padding:0 12px;
+    display: grid;
+    /* grid-template-columns:1fr 3fr 2fr; */
+    grid-template-columns: 140px 850px 385px;
+}
+.navbar_fastrack_logo{
+    
+    margin-top:5px;
+    width:140px;
+    height: 60px;
+    
+}
+.navbar_fastrack_logo_a{
+    display: block;
+    width:140px;
+    height: 50px;
+}
+.fastrack_logo_image{
+    width: 140px;
+    height: 50px;
+}
+.navbar_search_bar{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    /* justify-content: center; */
+    margin:10px 25px;
+    border:1px;
+    background-color: white;
+}
+.navbar_searchlens_icon{
+    place-self: center;
+}
+
+.navbar_search_bar_input{
+    position:relative;
+    padding:8px;
+    font-size: 15px;
+}
+.navbar_mic_svg{
+    place-self: center;
+}
+
+.navbar_thirdsection{
+    display:grid;
+    grid-template-columns: repeat(4, 25%);
+    
+    
+}
+.navbar_thirdsection_login{
+    display: grid;
+    color:white;
+    grid-template-rows:50% 50%;
+    font-size: 12px;
+    place-items:center;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .2px;
+    font-weight: 200;
+    
+ 
+}
+.navbar_thirdsection_login_img{
+    margin-bottom:0px;
+    margin-top:8px;
+}
+
+.navbar_thirdsection_whishlist_img{
+    margin-bottom:0px;
+    margin-top:8px;
+}
+.navbar_thirdsection_cart_img{
+    margin-bottom:0px;
+    margin-top:8px;
+}
+
+.navbar_thirdsection_trackorder_img{
+    margin-bottom:0px;
+    margin-top:8px;
+}
+/* header top_section here */
+/* header bottom section starts here */
+
+.navbar_bottom_section{
+   
+    padding:0px 310px;
+    position: relative;
+    color:white;
+    background-color: black;
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(7, 1fr);
+    top:55px;
+    height: 63px;
+    align-items: center;
+    justify-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    gap:0 5px;
+    z-index:-1;
+    
+    
+    
+}
+.dummy{
+   height: 100px;
+    position: relative;
+    
+}
+.third_navbar_forhome{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,60px);
+    position: relative;
+    font-size: 12px;
+    max-width: 180px;
+    font-size: 10px;
+    color:rgb(195, 193, 193);
+    font-weight: 900;
+    margin-bottom:10px;
+    justify-items: center;
+    
+}
+.third_navbar_forhome_span{
+    align-self: start;
+    justify-self: end;
+    margin-right:2px;
+}
+
+.arrow_inspan{
+    position:relative;
+    font-size: 10px;
+    color:rgb(185, 182, 182);
+    font-weight: 900;
+    padding-left:5px;  
+}
+.arrow_inspan1{
+    font-size: 10px;
+    color:rgb(212, 206, 206);
+    font-weight: 900; 
+}
+
+.third_navbar_forhome_span4{
+    margin-right:2px;
+    place-self: start;
+}
+
+
+.banner_image{
+    height: 230px;
+    width:100%;
+    position:relative;
+    top:0;
+    z-index:-1;
+    /* margin-top:40px; */
+   
+}
+
+/* banner ends here */
+
+
+/* main contents starts here */
+.main_contents_div{
+    margin:24px 121px;
+    padding:0px 12px;
+}
+.main_contents_div_firstsub{
+    display:grid;
+    grid-template-columns: 348px 571px;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom:8px;
+}
+.found_fastrack_watches_div{
+    margin:20px 0px;
+}
+.found_span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.fastrack_watches_span{
+    font-size:20px;
+    font-weight: 900;
+}
+
+.sort_section_div{
+    margin:20px 0px;
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    grid-template-rows:1fr;
+    /* justify-items: center; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.seperator{
+    padding:0 11px;
+}
+.seperator1{
+    padding-left:6px;
+    padding-right: 6px;
+}
+.seperating_div{
+    margin-top:8px;
+    position: relative;
+    
+}
+.products_and_filter_main_div{
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 299px 899px;
+}
+.filter_section{
+    width: 100%;
+    height: 100%;
+    padding:0 12px;
+}
+.compare_button_div{
+  
+  color:rgb(215, 209, 209);
+  
+
+
+}
+.compare_button{
+    display: grid;
+    place-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border:.5px solid black;
+}
+.button_content{
+    padding:12.250px 26.250px; 
+    text-align: center;
+    width:275px;
+    height: 100%;
+    
+}
+.compare-button-img{
+    width: 21px;
+    height: 27px;
+    opacity: .5;
+   
+}
+.compare_button_span{
+    position: relative;
+    top:-5px;
+}
+
+.filter_by_section_main_div{
+    display: grid;
+    padding:7px 0;
+    position: sticky;
+    top:0px;
+}
+.filter_by_div{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-between;
+    padding-top:25px;
+    padding-bottom:15px;
+    line-height: 30px;
+}
+.filter_by{
+    font-size: 14px;
+    font-weight: 900;
+}
+.clear_all{
+    font-size:14px;
+    font-weight: 200;
+    text-align: end;
+   
+}
+.clear_all span{
+    border-bottom:.1px solid black;
+}
+.categories_main_div{
+    margin-bottom: 2px;
+    margin-right: 2px;
+    width: 100%;
+    height: 100%;
+}
+.catergories_inside_div{
+    width: 100%;
+    height: 100%;
+}
+
+.categories_inside_button{
+    width: 100%;
+    height: 100%;
+    padding:16px 20px;
+    font-weight: 900;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.category{
+    text-align: start;
+}
+.plus_icon{
+    text-align: end;
+}
+
+/* filter side bar ends here */
+
+/* right side product image starts here */
+
+.products_section{
+    padding-left:13px;
+    padding-right: 13px;
+}
+.products_section_first_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.product_own_div{
+    width:289px;
+    height: 441px;
+}
+.product_wraper{
+    /* border:2px solid wheat;
+    height: 411px; */
+    min-height: 411px;
+}
+.product_image_div{
+    padding:15px 10px;
+}
+
+.product_image_div_own_custom_div{
+    position: relative;
+
+}
+
+.watches_image{
+    width: 100%;
+    height: 100%;
+}
+.product_discription_div{
+width: 100%;
+max-height: 130px;
+min-height: 110px;
+}
+.product_discription_h4{
+    text-align: center;
+    margin-bottom:5px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.product_discription_price_div{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 54px 52px 75px;
+}
+#rupee_symbol,#first_price_span{
+    font-size: 14px;
+    font-weight: 300;
+}
+#second_rupee_symbol, #second_price_span{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+.second_price_div{
+    color:#999;
+}
+.third_price_div{
+    text-align: center;
+    color:red;
+    font-size: 15px;
+}
+.product_discription_offers_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 2px;
+
+}
+.product_offers_spans_div1{ 
+    height: 100%;
+    padding-top:9px;
+    justify-self: end;
+    margin-right: 5px;
+}
+.product_offers_spans_div{
+    height: 100%;
+    padding-top:9px;
+}
+
+.product_offer_span1{
+  
+    font-size: 10px;
+    font-weight: 900;
+    color:white;
+    background-color: rgb(27 90 176);
+    padding:5px 20px;
+    
+}
+
+.product_offers_special_offers_span{
+    font-size: 10px;
+    font-weight: 900;
+    color:white;
+    background-color: rgb(250 87 85);
+    padding:5px 20px;
+}
+
+.product_discription_special_offers_div{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.product_discription_offers_div1{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 2px;
+
+}
+.products_offers_spans_div11{
+    height: 100%;
+    padding-top:9px;
+    justify-self: end;
+    margin-right: 5px;
+}
+.product_offer_span11{
+    font-size: 10px;
+    font-weight: 900;
+    color:white;
+    background-color: rgb(250 87 85);
+    padding:5px 20px;
+}
+
+/* main contents ends here */
+
+/* second section starts here */
+
+.second_content_div{
+    margin: 0 121px;
+}
+.second_content_first_div{
+    margin:23.45px 59px;
+}
+.second_content_first_hr{
+    margin:16px 0px;
+    
+    border-top:1px solid #585858;
+}
+.popular_searches_p{
+    text-align: start;
+    color:#585858;
+    font-size: 14px;
+    margin-bottom:10px;
+    font-weight: 200;
+}
+.second_content_first_h1{
+    color:#585858;
+    font-size: 32px;
+    margin-bottom:8px;
+}
+.second_content_first_p{
+    color:#585858;
+    font-size: 14px;
+    margin-bottom:10px;
+   line-height: 1.5;
+   font-weight: 300;
+}
+.second_content_first_h2{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight: 900;
+    color:#585858;
+    font-size: 22px;
+}
+
+.second_content_first_h3{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight: 900;
+    color:#585858;
+    font-size: 14px;
+}
+.second_content_first_p{
+    margin-bottom:10px;
+}
+.faq_question{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size: 14px;
+    color:#585858
+}
+.faq_answer_p{
+    margin-bottom:10px;
+    color:#585858;
+    font-weight:300;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.fastrack_watches_collection_price_list{
+    font-size: 18px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.collection_main_div{
+    display: grid;
+    grid-template-columns: 277px 50px;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom:2px solid rgb(236, 231, 231);
+}
+.collection_inside_div{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top:20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+.watches_names_list_div{
+    font-size: 14px;
+    font-weight: 400;
+    padding:5px;
+    color: #00bfd5;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    border-top:.1px solid rgb(205, 202, 202);
+    border-bottom:.1px solid rgb(190, 187, 187);
+}
+
+.watches_names_list_inside_div1{
+    padding:10px;
+    text-align: end;
+   
+}
+.last_hr{
+    padding:35px;
+    background-color: #faf9f6;;
+}
+/* price list section ends here */
+
+.footer{
+    padding-top:12px;
+    background-color: #202020;
+}
+
+.container{
+    margin:0 29px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    
+}
+
+.container_first_div{
+    margin-bottom:16px;
+    padding:0 12px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.container_first_items1{
+    display: grid;
+    font-size: 12px;
+    grid-template-rows: repeat(6,1fr);
+    /* place-items:center; */
+    align-items: center;
+    color:white;
+
+}
+.container_first_items_heading{
+    padding:17px 20px 8px 3px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 900;
+
+   
+}
+.container_first_div_right_h3{
+    margin-top:10px;
+    margin-bottom:25px;
+    color:white;
+    font-size: 14px;
+    font-weight: 900;
+}
+.social_logo{
+    width: 50px;
+    height: 30px;
+}
+
+.follow_us_div{
+    display: grid;
+    grid-template-columns: 2fr repeat(5,1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    fill:white;
+}
+
+.need_help{
+    margin:20px 10px;
+    font-size:14px;
+    color:white;
+    
+}
+.click_here_span{
+    font-size: 14px;
+    font-weight: 100;
+    padding-left: 10px;
+    color:white;
+    text-decoration: underline;
+    padding-right: 5px;
+}
+.clickhere{
+    font-size: 14px;
+    font-weight: 100;
+    color:white;
+    padding-right: 10px;
+    
+
+}
+.need_held_div{
+    display: flex;
+    align-items: center;
+}
+
+.terms_div{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: end;
+    margin:20px 0px;
+}
+.terms{
+    font-size: 10px;
+    font-weight: 600;
+    color:gray;
+
+}
+.last_hr2{
+    border-top:.1px solid gray;
+}
+
+.last_payment_brands_logo{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    padding:20px 0px;
+    margin:0px 50px
+    
+}
+.rights{
+    font-size: 10px;
+    color:grey;
+    text-align: end;
+}

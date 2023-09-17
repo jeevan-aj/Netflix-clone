@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fastrack_styels.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar_div">
+            <div class="navbar_second_div">
+                <div class="navbar_third_div">
+                    <div class="navbar_fastrack_logo">
+                        <a href="" class="navbar_fastrack_logo_a">
+                           <img class="fastrack_logo_image" src="fastrack_images/fastrack_logo_white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="navbar_search_bar">
+                        <svg class="navbar_searchlens_icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                        <input type="text" class="navbar_search_bar_input" placeholder="Search for product, brand, type and more…">
+                        <img class="navbar_mic_svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5LjE4NSIgaGVpZ2h0PSIxMy44NjEiIHZpZXdCb3g9IjAgMCA5LjE4NSAxMy44NjEiPg0KICA8ZyBpZD0iTWljIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjUgMC41KSIgb3BhY2l0eT0iMC42Ij4NCiAgICA8cGF0aCBpZD0iUGF0aF81MjExIiBkYXRhLW5hbWU9IlBhdGggNTIxMSIgZD0iTTE1LjI1NCwxLjVBMS43NTQsMS43NTQsMCwwLDAsMTMuNSwzLjI1NFY3LjkzMWExLjc1NCwxLjc1NCwwLDEsMCwzLjUwOCwwVjMuMjU0QTEuNzU0LDEuNzU0LDAsMCwwLDE1LjI1NCwxLjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTEuMTYyIC0xLjUpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTIxMiIgZGF0YS1uYW1lPSJQYXRoIDUyMTIiIGQ9Ik0xNS42ODUsMTV2MS4xNjlhNC4wOTIsNC4wOTIsMCwwLDEtOC4xODUsMFYxNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcuNSAtOS43MzkpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTIxMyIgZGF0YS1uYW1lPSJQYXRoIDUyMTMiIGQ9Ik0xOCwyOC41djIuMzM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMuOTA4IC0xNy45NzcpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTIxNCIgZGF0YS1uYW1lPSJQYXRoIDUyMTQiIGQ9Ik0xMiwzNC41aDQuNjc3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAuMjQ2IC0yMS42MzkpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogIDwvZz4NCjwvc3ZnPg0K" height="18px">
+                    </div>
+                    <div class="navbar_thirdsection">
+                        <div class="navbar_thirdsection_login">
+                            <img class="navbar_thirdsection_login_img" loading="lazy" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNiAyNiI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4NCiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMTc5MiIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMTc5MiIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMSAtMC40ODMpIiBmaWxsPSIjZmZmIiBzdHJva2U9InJnYmEoMCwwLDAsMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0icHJvZmlsZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDAxIDAuNDgzKSIgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtcGF0aCkiPg0KICAgIDxnIGlkPSJBY2NvdW50IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjA1MSAzLjgzNCkiPg0KICAgICAgPGcgaWQ9Ikdyb3VwXzExMzMzIiBkYXRhLW5hbWU9Ikdyb3VwIDExMzMzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjIyKSIgb3BhY2l0eT0iMC44NyI+DQogICAgICAgIDxwYXRoIGlkPSJQYXRoXzQzNzAiIGRhdGEtbmFtZT0iUGF0aCA0MzcwIiBkPSJNOTM3LjUsNTIyLjYxYTQuOTM0LDQuOTM0LDAsMSwxLDQuNzQ3LTQuOTNBNC44NDcsNC44NDcsMCwwLDEsOTM3LjUsNTIyLjYxWm0wLTguNzY1YTMuODM3LDMuODM3LDAsMSwwLDMuNjkyLDMuODM0QTMuNzcsMy43NywwLDAsMCw5MzcuNSw1MTMuODQ2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTkzMi43NSAtNTEyLjc1KSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDApIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMSIvPg0KICAgICAgPC9nPg0KICAgICAgPGcgaWQ9Ikdyb3VwXzExMzM0IiBkYXRhLW5hbWU9Ikdyb3VwIDExMzM0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEwLjk1NikiIG9wYWNpdHk9IjAuODciPg0KICAgICAgICA8cGF0aCBpZD0iUGF0aF80MzcxIiBkYXRhLW5hbWU9IlBhdGggNDM3MSIgZD0iTTk0NC4wNDcsNTMwLjQxOWgtMTIuNjZhMi42OTIsMi42OTIsMCwwLDEtMi42MzgtMi43MzksNC44NDcsNC44NDcsMCwwLDEsNC43NDctNC45M2g4LjQ0YTQuODQ3LDQuODQ3LDAsMCwxLDQuNzQ3LDQuOTNBMi42OTIsMi42OTIsMCwwLDEsOTQ0LjA0Nyw1MzAuNDE5Wm0tMTAuNTUtNi41NzNhMy43NywzLjc3LDAsMCwwLTMuNjkyLDMuODM0LDEuNjE2LDEuNjE2LDAsMCwwLDEuNTgzLDEuNjQzaDEyLjY2YTEuNjE2LDEuNjE2LDAsMCwwLDEuNTgzLTEuNjQzLDMuNzcsMy43NywwLDAsMC0zLjY5Mi0zLjgzNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05MjguNzUgLTUyMi43NSkiIGZpbGw9IiNmZmYiIHN0cm9rZT0icmdiYSgwLDAsMCwwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuODciLz4NCiAgICAgIDwvZz4NCiAgICA8L2c+DQogIDwvZz4NCjwvc3ZnPg0K" height="24px">
+                            <span class="navbar_thirdsection_login_span">LOGIN</span>
+                        </div>
+                        <div class="navbar_thirdsection_login">
+                            <img class="navbar_thirdsection_whishlist_img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNiAyNiI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4NCiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMTUiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDE1IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuNDgzKSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDApIiBzdHJva2Utd2lkdGg9IjEiLz4NCiAgICA8L2NsaXBQYXRoPg0KICA8L2RlZnM+DQogIDxnIGlkPSJNYXNrX0dyb3VwXzMiIGRhdGEtbmFtZT0iTWFzayBHcm91cCAzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuNDgzKSIgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtcGF0aCkiPg0KICAgIDxnIGlkPSJXaXNobGlzdCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4yNCA0LjY0MSkiIG9wYWNpdHk9IjAuODciPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfNSIgZGF0YS1uYW1lPSJQYXRoIDUiIGQ9Ik05Ljc1NywxNi43MTlhMi41MzIsMi41MzIsMCwwLDEtMS44LS43NDNMMS42NDgsOS42NjVBNS42NjYsNS42NjYsMCwwLDEsOS42NTksMS42NWwuMS4xLjEtLjFhNS42NjYsNS42NjYsMCwwLDEsOC4wMTUsOC4wMTFsLTYuMzE0LDYuMzEzQTIuNTMxLDIuNTMxLDAsMCwxLDkuNzU3LDE2LjcxOVpNNS42NTQuOTI5QTQuNzI5LDQuNzI5LDAsMCwwLDIuMzA2LDkuMDA5bDYuMzExLDYuMzFhMS42MTUsMS42MTUsMCwwLDAsMi4yODEsMGw2LjMxMi02LjMxMWE0LjczNyw0LjczNywwLDEsMC02LjctNi43bC0uNzUzLjc1NEw5LDIuMzA5QTQuNzM5LDQuNzM5LDAsMCwwLDUuNjU0LjkyOVoiIGZpbGw9IiNmZmYiLz4NCiAgICA8L2c+DQogIDwvZz4NCjwvc3ZnPg0K" height="24px">
+                            <span class="nav_thirdsection_whishlist_span">WHISHLIST</span>
+                        </div>
+                        <div class="navbar_thirdsection_login">
+                            <img class="navbar_thirdsection_cart_img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNiAyNiI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4NCiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMTc5MCIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMTc5MCIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMDEgLTAuNDgzKSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDApIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMSIvPg0KICAgIDwvY2xpcFBhdGg+DQogIDwvZGVmcz4NCiAgPGcgaWQ9IkNhcnQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAxIDAuNDgzKSIgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtcGF0aCkiPg0KICAgIDxnIGlkPSJDYXJ0LTIiIGRhdGEtbmFtZT0iQ2FydCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy43NzUgMy44MzQpIj4NCiAgICAgIDxnIGlkPSJHcm91cF8xMTMyOCIgZGF0YS1uYW1lPSJHcm91cCAxMTMyOCIgb3BhY2l0eT0iMC44NyI+DQogICAgICAgIDxwYXRoIGlkPSJQYXRoXzQzNjciIGRhdGEtbmFtZT0iUGF0aCA0MzY3IiBkPSJNMTA1OS4zMzgsNzM1LjQ1N2wtMS40NjgtOC43NzZhMi43MywyLjczLDAsMCwwLTIuNy0yLjI3OWgtLjg4N3YtMS42NDNhMi43NCwyLjc0LDAsMCwwLTIuNzM5LTIuNzM5aC0yLjE5MWEyLjc0LDIuNzQsMCwwLDAtMi43MzksMi43MzlWNzI0LjRoLS44ODdhMi43MywyLjczLDAsMCwwLTIuNywyLjI3OWwtMS40NjgsOC43NzZhMi43MzYsMi43MzYsMCwwLDAsMi43MDYsMy4xODhoMTIuMzU4YTIuNzM2LDIuNzM2LDAsMCwwLDIuNzA2LTMuMTg4Wm0tMTEuNjI0LTEyLjdhMS42NDEsMS42NDEsMCwwLDEsMS42NDMtMS42NDNoMi4xOTFhMS42NDEsMS42NDEsMCwwLDEsMS42NDMsMS42NDNWNzI0LjRoLTUuNDc4Wm0xMC4xNjcsMTQuMjA5YTEuNjEzLDEuNjEzLDAsMCwxLTEuMjQ5LjU4MWgtMTIuMzU4YTEuNjM1LDEuNjM1LDAsMCwxLTEuMjYtLjU4MSwxLjY2NCwxLjY2NCwwLDAsMS0uMzYyLTEuMzI2bDEuNDY4LTguNzc2YTEuNjM1LDEuNjM1LDAsMCwxLDEuNjEtMS4zNjloOS40NDRhMS42MzUsMS42MzUsMCwwLDEsMS42MSwxLjM2OWwxLjQ2OCw4Ljc3NkExLjYzMiwxLjYzMiwwLDAsMSwxMDU3Ljg4MSw3MzYuOTY4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwNDEuNTMyIC03MjAuMDIpIiBmaWxsPSIjZmZmIiBzdHJva2U9InJnYmEoMCwwLDAsMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgICA8L2c+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==" height="24px">
+                            <spna class="navbar_thirdsection_cart_span">SPAN</spna>
+                        </div>
+                        <div class="navbar_thirdsection_login">
+                            <img class="navbar_thirdsection_trackorder_img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4xMzUiIGhlaWdodD0iMjAuMTM1IiB2aWV3Qm94PSIwIDAgMjAuMTM1IDIwLjEzNSI+DQogIDxnIGlkPSJUcmFja19PcmRlciIgZGF0YS1uYW1lPSJUcmFjayBPcmRlciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzNjIgLTUzLjQ4NCkiPg0KICAgIDxwYXRoIGlkPSJQYXRoXzU2MjkiIGRhdGEtbmFtZT0iUGF0aCA1NjI5IiBkPSJNODAuNTQ3LDIuMWE4LjAwNiw4LjAwNiwwLDAsMSw3LjQ4Nyw3LjQ4N2gxLjU4OGEuNS41LDAsMCwxLC41MS40NTQuNTA4LjUwOCwwLDAsMS0uNTEuNTFIODguMDM0YTguMDUxLDguMDUxLDAsMCwxLTcuNDg3LDcuNDg3djEuNTg4YS41MDguNTA4LDAsMCwxLS41MS41MS41LjUsMCwwLDEtLjQ1NC0uNTFWMTguMDM3QTguMDA2LDguMDA2LDAsMCwxLDcyLjEsMTAuNTVINzAuNDUxYS41LjUsMCwwLDEtLjQ1NC0uNTEuNDg4LjQ4OCwwLDAsMSwuNDU0LS40NTRINzIuMUE3Ljk2MSw3Ljk2MSwwLDAsMSw3OS41ODMsMi4xVi40NTRBLjQ4OC40ODgsMCwwLDEsODAuMDM2LDBhLjUuNSwwLDAsMSwuNTEuNDU0Wm0tLjUxLjk2NGE3LDcsMCwwLDAsMCwxNC4wMDksNy4wODIsNy4wODIsMCwwLDAsNi44MTItNS4yNiw2LjU1OSw2LjU1OSwwLDAsMCwuMjIxLTEuNzczLDYuOTg0LDYuOTg0LDAsMCwwLTcuMDMzLTYuOTc2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI5Mi4wMDMgNTMuNDg0KSIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC44NyIvPg0KICAgIDxwYXRoIGlkPSJQYXRoXzU2MzAiIGRhdGEtbmFtZT0iUGF0aCA1NjMwIiBkPSJNMjgwLjc3OCwyMDguMjNhMi41NTIsMi41NTIsMCwxLDEtMi41NTIsMi41NTJBMi41NDIsMi41NDIsMCwwLDEsMjgwLjc3OCwyMDguMjNabTAsLjk2NGExLjYyMywxLjYyMywwLDAsMC0xLjU4OCwxLjU4OCwxLjU4NSwxLjU4NSwwLDAsMCwxLjU4OCwxLjU4OCwxLjU1MSwxLjU1MSwwLDAsMCwxLjU4OC0xLjU4OEExLjU4NSwxLjU4NSwwLDAsMCwyODAuNzc4LDIwOS4xOTRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDkxLjI2MSAtMTQ3LjI1OSkiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuODciLz4NCiAgPC9nPg0KPC9zdmc+DQo=" height="24px">
+                            <spna class="navbar_thirdsection_trackorder_span">TRACK ORDER</spna>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </nav>
+    </header>
+    <!-- header ends here -->
+    <!-- second small navbar -->
+    <div class="navbar_bottom_section">
+        <span class="navbar_bottom_section_span">WATCHES</span>
+        <span class="navbar_bottom_section_span">SMART & AUDIO</span>
+        <span class="navbar_bottom_section_span">EYEWEAR</span>
+        <span class="navbar_bottom_section_span">BAGS & MORE</span>
+        <span class="navbar_bottom_section_span">PERFUMES</span>
+        <span class="navbar_bottom_section_span">OFFERS & MORE</span>
+        <span class="navbar_bottom_section_span">MORE</span>
+    </div>
+    <!-- second small navbar ends here -->
+<div class="dummy"></div>
+    <!-- third small navbar -->
+    <div class="third_navbar_forhome">
+        <span class="third_navbar_forhome_span"><svg class="home_svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>  <span class="arrow_inspan">></span></span>
+        <span class="third_navbar_forhome_span3">Watches <span class="arrow_inspan1">></span></span>
+        <span class="third_navbar_forhome_span4">Him</span>
+    </div>
+    <!-- third small navbar ends here -->
+
+    <!-- banner starts here -->
+    <div class="banner_div">
+        <img class="banner_image" loading="lazy" src="https://www.fastrack.in/wps/wcm/connect/fastrackrt/49bd3582-1093-4beb-915b-6367790db235/desktop/FM_Smart_060723.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0L8F0647TQN6318K2-49bd3582-1093-4beb-915b-6367790db235-desktop-oAImJ6B">
+    </div>
+    <!-- banner ends here -->
+
+    <div class="main_contents_div">
+        <div class="main_contents_div_firstsub">
+            <div class="found_fastrack_watches_div">
+                <span class="found_span">FOUND</span>
+                <span class="fastrack_watches_span">1093 FASTRACK WATCHES</span>
+            </div>
+            <div class="sort_section_div">
+                <li class="sort_li1">
+                    <strong><span class="sort_by">SORT BY</span></strong> 
+                    <!-- <span class="seperator">|</span> -->
+                </li>
+             
+               <li class="sort_li">
+                Best Seller
+                <span class="seperator">|</span>
+               </li>
+               <li class="sort_li">
+                New Arrivals
+                <span class="seperator1">|</span>
+               </li>
+               <li class="sort_li">
+                Popularity
+                <span class="seperator">|</span>
+               </li>
+               <li class="sort_li">
+                Discount
+                <span class="seperator">|</span>
+               </li>
+               <li class="sort_li2">
+                Price
+                <!-- <span class="seperator">|</span> -->
+               </li>
+               
+            </div>
+        </div>
+        <div class="seperating_div"></div>
+        <!-- filter_orginal section starts here -->
+        <div class="products_and_filter_main_div">
+            <div class="filter_section">
+                <div class="compare_button_div">
+                    <buttton class="compare_button">
+                        <div class="button_content">
+                            <img src="https://www.titan.co.in/wps/wcm/connect/titan/3b52b964-af6c-44a0-b555-7bf2082eeafd/img%252Ficon%252FCompare_Icon.svg?MOD=AJPERES&amp;CVID=" alt="" class="compare-button-img">
+                            <span class="compare_button_span">COMPARE</span>
+                        </div>
+                    </buttton>
+                </div>
+                   <!-- filters start here -->
+                <div class="filter_by_section_main_div">
+                    <div class="filter_by_div">
+                        <div class="filter_by">FILTER BY</div>
+                        <div class="clear_all"><span>Clear all</span></div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">VIRTUAL TRY ON</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">
+
+                                    GENDER</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">PRICE</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">DISCOUNTS</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">BRANDS</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">STRAP MATERIALS</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">AVAILABILITY</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">STRAP COLOR</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">DIAL COLOR</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">FUNCTION</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">COLLECTION</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">MOVEMENT</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">PRODUCT CATEGORY</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories_main_div">
+                        <div class="categories_inside_div">
+                            <button class="categories_inside_button">
+                                <div class="category">CASE LEVEL</div>
+                                <div class="plus_icon"><svg class="plus_icon_img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="products_section">
+               <div class="products_section_first_div">
+                <div class="product_own_div">
+
+                    <!-- normal wrapper -->
+                    <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+
+                </div>
+
+                    <!-- normal wrapper -->
+                    <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP07_1.jpg?impolicy=pqmed&imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+                
+               <!-- special wrapper starts here -->
+                <div class="product_wrapper">
+                    <div class="product_image_div">
+                        <div class="product_image_div_own_custom_div">
+                            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6237SM01_1.jpg?impolicy=pqmed&imwidth=640">
+                        </div>
+                    </div>
+                    <div class="product_discription_div">
+                        <h4 class="product_discription_h4">
+                            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                        </h4>
+                        <div class="product_discription_price_div">
+                            <div class="first_price_div">
+                                <span id="rupee_symbol">₹</span>
+                                <span id="first_price_span">6990</span>
+                                
+                                
+                            </div>
+                            <div class="second_price_div">
+                                <span id="second_rupee_symbol">₹</span>
+                                <span id="second_price_span">10000</span>
+                            </div>
+                            <div class="third_price_div">
+                                <span id="third_price_span">(36% off)</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_offers_div1">
+                            <div class="product_offers_spans_div11">
+                                <span class="product_offer_span11">HIGH PRESICION QUARTZ MOVMENT</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_special_offers_div">
+                            <span class="product_offers_special_offers_span">
+                                SILVER DIAL WATCH
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+                 <!--special wrapper ends here  -->
+
+                     <!-- normal wrapper -->
+                     <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3147KM01_1.jpg?impolicy=pqmed&imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+                        <!-- normal wrapper -->
+                        <div class="product_wrapper">
+                            <div class="product_image_div">
+                                <div class="product_image_div_own_custom_div">
+                                    <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38083PP06_1.jpg?impolicy=pqmed&imwidth=640">
+                                </div>
+                            </div>
+                            <div class="product_discription_div">
+                                <h4 class="product_discription_h4">
+                                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                                </h4>
+                                <div class="product_discription_price_div">
+                                    <div class="first_price_div">
+                                        <span id="rupee_symbol">₹</span>
+                                        <span id="first_price_span">6990</span>
+                                        
+                                        
+                                    </div>
+                                    <div class="second_price_div">
+                                        <span id="second_rupee_symbol">₹</span>
+                                        <span id="second_price_span">10000</span>
+                                    </div>
+                                    <div class="third_price_div">
+                                        <span id="third_price_span">(36% off)</span>
+                                    </div>
+                                </div>
+                                <div class="product_discription_offers_div">
+                                    <div class="product_offers_spans_div1">
+                                        <span class="product_offer_span1">NEW ARRIVAL</span>
+                                    </div>
+                                    <div class="product_offers_spans_div">
+                                        <span class="product_offer_span1">NO COST EMI</span>
+                                    </div>
+                                    
+                                    
+    
+                                </div>
+                                <div class="product_discription_special_offers_div">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- normal wrapper ends here -->
+                            <!-- normal wrapper -->
+                    <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38085PP02_1.jpg?impolicy=pqmed&imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+                        <!-- normal wrapper -->
+                        <div class="product_wrapper">
+                            <div class="product_image_div">
+                                <div class="product_image_div_own_custom_div">
+                                    <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6221NM02_1.jpg?impolicy=pqmed&imwidth=640">
+                                </div>
+                            </div>
+                            <div class="product_discription_div">
+                                <h4 class="product_discription_h4">
+                                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                                </h4>
+                                <div class="product_discription_price_div">
+                                    <div class="first_price_div">
+                                        <span id="rupee_symbol">₹</span>
+                                        <span id="first_price_span">6990</span>
+                                        
+                                        
+                                    </div>
+                                    <div class="second_price_div">
+                                        <span id="second_rupee_symbol">₹</span>
+                                        <span id="second_price_span">10000</span>
+                                    </div>
+                                    <div class="third_price_div">
+                                        <span id="third_price_span">(36% off)</span>
+                                    </div>
+                                </div>
+                                <div class="product_discription_offers_div">
+                                    <div class="product_offers_spans_div1">
+                                        <span class="product_offer_span1">NEW ARRIVAL</span>
+                                    </div>
+                                    <div class="product_offers_spans_div">
+                                        <span class="product_offer_span1">NO COST EMI</span>
+                                    </div>
+                                    
+                                    
+    
+                                </div>
+                                <div class="product_discription_special_offers_div">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- normal wrapper ends here -->
+                            <!-- normal wrapper -->
+                    <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/68015PP03_1.jpg?impolicy=pqmed&imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+                        <!-- normal wrapper -->
+                        <div class="product_wrapper">
+                            <div class="product_image_div">
+                                <div class="product_image_div_own_custom_div">
+                                    <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6237QM01_1.jpg?impolicy=pqmed&imwidth=640">
+                                </div>
+                            </div>
+                            <div class="product_discription_div">
+                                <h4 class="product_discription_h4">
+                                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                                </h4>
+                                <div class="product_discription_price_div">
+                                    <div class="first_price_div">
+                                        <span id="rupee_symbol">₹</span>
+                                        <span id="first_price_span">6990</span>
+                                        
+                                        
+                                    </div>
+                                    <div class="second_price_div">
+                                        <span id="second_rupee_symbol">₹</span>
+                                        <span id="second_price_span">10000</span>
+                                    </div>
+                                    <div class="third_price_div">
+                                        <span id="third_price_span">(36% off)</span>
+                                    </div>
+                                </div>
+                                <div class="product_discription_offers_div">
+                                    <div class="product_offers_spans_div1">
+                                        <span class="product_offer_span1">NEW ARRIVAL</span>
+                                    </div>
+                                    <div class="product_offers_spans_div">
+                                        <span class="product_offer_span1">NO COST EMI</span>
+                                    </div>
+                                    
+                                    
+    
+                                </div>
+                                <div class="product_discription_special_offers_div">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- normal wrapper ends here -->
+                            <!-- normal wrapper -->
+                    <div class="product_wrapper">
+                        <div class="product_image_div">
+                            <div class="product_image_div_own_custom_div">
+                                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6237QM01_1.jpg?impolicy=pqmed&imwidth=640">
+                            </div>
+                        </div>
+                        <div class="product_discription_div">
+                            <h4 class="product_discription_h4">
+                                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                            </h4>
+                            <div class="product_discription_price_div">
+                                <div class="first_price_div">
+                                    <span id="rupee_symbol">₹</span>
+                                    <span id="first_price_span">6990</span>
+                                    
+                                    
+                                </div>
+                                <div class="second_price_div">
+                                    <span id="second_rupee_symbol">₹</span>
+                                    <span id="second_price_span">10000</span>
+                                </div>
+                                <div class="third_price_div">
+                                    <span id="third_price_span">(36% off)</span>
+                                </div>
+                            </div>
+                            <div class="product_discription_offers_div">
+                                <div class="product_offers_spans_div1">
+                                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                                </div>
+                                <div class="product_offers_spans_div">
+                                    <span class="product_offer_span1">NO COST EMI</span>
+                                </div>
+                                
+                                
+
+                            </div>
+                            <div class="product_discription_special_offers_div">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- normal wrapper ends here -->
+
+                      
+               <!-- special wrapper starts here -->
+                <div class="product_wrapper">
+                    <div class="product_image_div">
+                        <div class="product_image_div_own_custom_div">
+                            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3224NL01_1.jpg?impolicy=pqmed&imwidth=640">
+                        </div>
+                    </div>
+                    <div class="product_discription_div">
+                        <h4 class="product_discription_h4">
+                            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                        </h4>
+                        <div class="product_discription_price_div">
+                            <div class="first_price_div">
+                                <span id="rupee_symbol">₹</span>
+                                <span id="first_price_span">6990</span>
+                                
+                                
+                            </div>
+                            <div class="second_price_div">
+                                <span id="second_rupee_symbol">₹</span>
+                                <span id="second_price_span">10000</span>
+                            </div>
+                            <div class="third_price_div">
+                                <span id="third_price_span">(36% off)</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_offers_div1">
+                            <div class="product_offers_spans_div11">
+                                <span class="product_offer_span11">HIGH PRESICION QUARTZ MOVMENT</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_special_offers_div">
+                            <span class="product_offers_special_offers_span">
+                                SILVER DIAL WATCH
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+                 <!--special wrapper ends here  -->
+                   
+               <!-- special wrapper starts here -->
+                <div class="product_wrapper">
+                    <div class="product_image_div">
+                        <div class="product_image_div_own_custom_div">
+                            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+                        </div>
+                    </div>
+                    <div class="product_discription_div">
+                        <h4 class="product_discription_h4">
+                            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                        </h4>
+                        <div class="product_discription_price_div">
+                            <div class="first_price_div">
+                                <span id="rupee_symbol">₹</span>
+                                <span id="first_price_span">6990</span>
+                                
+                                
+                            </div>
+                            <div class="second_price_div">
+                                <span id="second_rupee_symbol">₹</span>
+                                <span id="second_price_span">10000</span>
+                            </div>
+                            <div class="third_price_div">
+                                <span id="third_price_span">(36% off)</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_offers_div1">
+                            <div class="product_offers_spans_div11">
+                                <span class="product_offer_span11">HIGH PRESICION QUARTZ MOVMENT</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_special_offers_div">
+                            <span class="product_offers_special_offers_span">
+                                SILVER DIAL WATCH
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+                 <!--special wrapper ends here  -->
+        <!-- normal wrapper -->
+        <div class="product_wrapper">
+        <div class="product_image_div">
+            <div class="product_image_div_own_custom_div">
+                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3224NL01_1.jpg?impolicy=pqmed&imwidth=640">
+            </div>
+                </div>
+            <div class="product_discription_div">
+            <h4 class="product_discription_h4">
+                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+            </h4>
+            <div class="product_discription_price_div">
+                <div class="first_price_div">
+                    <span id="rupee_symbol">₹</span>
+                    <span id="first_price_span">6990</span>
+                    
+                    
+                </div>
+                <div class="second_price_div">
+                    <span id="second_rupee_symbol">₹</span>
+                    <span id="second_price_span">10000</span>
+                </div>
+                <div class="third_price_div">
+                    <span id="third_price_span">(36% off)</span>
+                </div>
+            </div>
+            <div class="product_discription_offers_div">
+                <div class="product_offers_spans_div1">
+                    <span class="product_offer_span1">NEW ARRIVAL</span>
+                </div>
+                <div class="product_offers_spans_div">
+                    <span class="product_offer_span1">NO COST EMI</span>
+                </div>
+                
+                
+
+            </div>
+            <div class="product_discription_special_offers_div">
+                
+            </div>
+        </div>
+        </div>
+        <!-- normal wrapper ends here -->
+
+        <div class="product_wrapper">
+        <div class="product_image_div">
+            <div class="product_image_div_own_custom_div">
+                <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+            </div>
+        </div>
+        <div class="product_discription_div">
+            <h4 class="product_discription_h4">
+                Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+            </h4>
+            <div class="product_discription_price_div">
+                <div class="first_price_div">
+                    <span id="rupee_symbol">₹</span>
+                    <span id="first_price_span">6990</span>
+                    
+                    
+                </div>
+                <div class="second_price_div">
+                    <span id="second_rupee_symbol">₹</span>
+                    <span id="second_price_span">10000</span>
+                </div>
+                <div class="third_price_div">
+                    <span id="third_price_span">(36% off)</span>
+                </div>
+            </div>
+            <div class="product_discription_offers_div1">
+                <div class="product_offers_spans_div11">
+                    <span class="product_offer_span11">HIGH PRESICION QUARTZ MOVMENT</span>
+                </div>
+            </div>
+            <div class="product_discription_special_offers_div">
+                <span class="product_offers_special_offers_span">
+                    SILVER DIAL WATCH
+                </span>
+            </div>
+        </div>
+        </div> 
+        <!--special wrapper ends here  -->
+
+        <!-- normal wrapper -->
+        <div class="product_wrapper">
+        <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+        </div>
+        <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6265QM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3247SL01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3273QL01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6267SL01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3278SL01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6221WM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3247NM02_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+    </div>
+    <!-- normal wrapper ends here -->
+    <!-- normal wrapper -->
+    <div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6248NM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3287QM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3227SM02_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38068PP01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AL06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6247SM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/3287NM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38083PP08_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6215NM01_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38042PP05_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6152SL07_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6213SL04_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/6213SL03_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/2298SL04_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+<!-- normal wrapper ends here -->
+<div class="product_wrapper">
+    <div class="product_image_div">
+        <div class="product_image_div_own_custom_div">
+            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP06_1.jpg?impolicy=pqmed&imwidth=640">
+        </div>
+    </div>
+    <div class="product_discription_div">
+        <h4 class="product_discription_h4">
+            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+        </h4>
+        <div class="product_discription_price_div">
+            <div class="first_price_div">
+                <span id="rupee_symbol">₹</span>
+                <span id="first_price_span">6990</span>
+                
+                
+            </div>
+            <div class="second_price_div">
+                <span id="second_rupee_symbol">₹</span>
+                <span id="second_price_span">10000</span>
+            </div>
+            <div class="third_price_div">
+                <span id="third_price_span">(36% off)</span>
+            </div>
+        </div>
+        <div class="product_discription_offers_div">
+            <div class="product_offers_spans_div1">
+                <span class="product_offer_span1">NEW ARRIVAL</span>
+            </div>
+            <div class="product_offers_spans_div">
+                <span class="product_offer_span1">NO COST EMI</span>
+            </div>
+            
+            
+
+        </div>
+        <div class="product_discription_special_offers_div">
+            
+        </div>
+    </div>
+</div>
+<!-- normal wrapper ends here -->
+
+
+<!-- special wrapper starts here -->
+                <div class="product_wrapper">
+                    <div class="product_image_div">
+                        <div class="product_image_div_own_custom_div">
+                            <img class="watches_image" data-src="https://staticimg.titan.co.in/Fastrack/Catalog/38077AM05_1.jpg?impolicy=pqmed&amp;imwidth=640" alt="image" class="" style="opacity: 1;" src="https://staticimg.titan.co.in/Fastrack/Catalog/38086PP07_1.jpg?impolicy=pqmed&imwidth=640">
+                        </div>
+                    </div>
+                    <div class="product_discription_div">
+                        <h4 class="product_discription_h4">
+                            Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display 
+                        </h4>
+                        <div class="product_discription_price_div">
+                            <div class="first_price_div">
+                                <span id="rupee_symbol">₹</span>
+                                <span id="first_price_span">6990</span>
+                                
+                                
+                            </div>
+                            <div class="second_price_div">
+                                <span id="second_rupee_symbol">₹</span>
+                                <span id="second_price_span">10000</span>
+                            </div>
+                            <div class="third_price_div">
+                                <span id="third_price_span">(36% off)</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_offers_div1">
+                            <div class="product_offers_spans_div11">
+                                <span class="product_offer_span11">HIGH PRESICION QUARTZ MOVMENT</span>
+                            </div>
+                        </div>
+                        <div class="product_discription_special_offers_div">
+                            <span class="product_offers_special_offers_span">
+                                SILVER DIAL WATCH
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+                 <!--special wrapper ends here  -->
+                
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="second_content_div">
+        <div class="second_content_first_div">
+            <hr class="second_content_first_hr">
+            <p class="popular_searches_p">
+                <span class="popular_searches_p">POPULAR SEARCHES:</span> Smart Watch | Fashion Watches | Casual Watch | Sport Watch
+            </p>
+            <hr class="second_content_first_hr">
+            <h1 class="second_content_first_h1">WATCHES THAT COMPLIMENT YOUR STYLE</h1>
+            <p class="second_content_first_p">Watches do not only help you keep track of time but also make a strong style statement. They add wings to your style and personality. Like a sultry dress or a pair of flawless shoes, wrist watches enhance your whole appearance. But before you go on making the purchase, you must decide what would be the best watch to suit your personality.</p>
+            <h2 class="second_content_first_h2">
+                TYPES OF WATCHES AT FASTRACK
+            </h2>
+            <h3 class="second_content_first_h3">ANALOGUE QUARTZ WATCHES</h3>
+            <p class="second_content_first_p">Analogue quartz wrist watches are battery-powered timepieces. They are the OGs of the watch world. If you want that classy, debonair look, analogue watches are the way to go. At Fastrack, we offer a wide range of analogue watches, available in different dial shapes, strap materials, and a host of colours.</p>
+            <h3 class="second_content_first_h3">DIGITAL WATCHES</h3>
+            <p class="second_content_first_p">Digital watches are the multi-featured, tech-savvy equivalents of their analogue counterparts. They are sporty, and always ready to go. These wrist watches are ideal for the active, outdoorsy watch wearers with features like altimeters, depth sensors, etc., that suit high-energy, on-the-go lives. Whether you want casual, dressy, or sporty, our watches have got you covered.</p>
+            <h3 class="second_content_first_h3">DIGITAL-ANALOGUE WATCHES</h3>
+            <p class="second_content_first_p">What if we tell you that you can get the classic look of an analogue watch combined with the features of a digital watch? Sounds like a perfect combination, doesn’t it? Our collection of digital-analogue watches is just that! With classic numerical dials and small digital screens, these watches come with a 5 ATM water resistance.</p>
+            <h3 class="second_content_first_h3">SMARTWATCHES</h3>
+            <p class="second_content_first_p">They are the new generation wrist watches. In addition to telling the time and keeping track of activities, these watches can be your trainer, your virtual assistant, and your mobile device, all wrapped up around your wrist. Our smartwatch collections come packed with features like 24x7 heart rate monitoring, blood oxygen and sleep tracking, stress monitoring, and 20+ sports modes. In addition to this, once paired with your smartphone, you can also receive notifications, react to texts, play music, and do so much more.</p>
+            <h2 class="second_content_first_h2" >FAQs</h2>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h3 class="faq_question">1. HOW DO I CHOOSE A WATCH FOR MYSELF?</h3>
+            <p class="faq_answer_p">First, you need to decide what kind of watch you want. You can choose analogue, digital, or a smartwatch. Next, you must figure out what is your budget, based on that, you can find options that best suit your style and needs.</p>
+            <h1 class="fastrack_watches_collection_price_list">FASTRACK WATCHES COLLECTION PRICE LIST</h1>
+            <div class="collection_main_div">
+                <div class="collection_inside_div">FASTRACK WATCHES COLLECTION</div>
+                <div class="collection_inside_div">PRICE
+                    (RS)</div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+            <div class="watches_names_list_div">
+                <div class="watches_names_list_inside_div1">
+                    Fastrack Reflex Play + Classic BT Calling 1.3 AMOLED Display Smartwatch With AOD Premium Metallic Body, IP68 Water Resistance
+                </div>
+                <div class="watches_names_list_inside_div1">
+                    ₹ 6995
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="last_hr">
+
+    <footer class="footer">
+        <div class="container">
+            <div class="container_first_div">
+                <div class="container_first_items1">
+                    <span class="container_first_items_heading">CUSTOMER SERVICE</span>
+                    <span class="container_first_items">Payment Options</span>
+                    <span class="container_first_items">Track Order</span>
+                    <span class="container_first_items">Find a Store</span>
+                    <span class="container_first_items">Encircle Program</span>
+                </div>
+                <div class="container_first_items1">
+                    <span class="container_first_items_heading">CONTACT US</span>
+                    <span class="container_first_items">1800-266-0123
+                    </span>
+                    <span class="container_first_items">customercare@titan.co.in</span>
+                    <span class="container_first_items">Frequently Asked Questions
+                    </span>
+                </div>
+                <div class="container_first_items1">
+                    <span class="container_first_items_heading">POLICIES</span>
+                    <span class="container_first_items">Returns & Exchanges</span>
+                    <span class="container_first_items">Cancellation</span>
+                    <span class="container_first_items">Shipping</span>
+                    <span class="container_first_items">Warranty Policies</span>
+                    <span class="container_first_items">Delivery Information</span>
+                    
+                </div>
+                <div class="container_first_items1">
+                    <span class="container_first_items_heading">ABOUT FASTRACK</span>
+                    <span class="container_first_items">About Us</span>
+                    <span class="container_first_items">Careers</span>
+                </div>
+               
+            </div>
+            <div class="container_first_div_right">
+                <div class="container_first_div_right_h3">DOWNLOAD WORLD OF TITAN APP</div>
+                <div class="container_first_div_right_logos">
+                    <div class="app_store">
+                        <img class="app_store_img" data-src="/wps/wcm/connect/fastrackrt/2872109e-ec2b-4cd4-9aaa-da1cdb6c178a/app-store.svg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0L8F0647TQN6318K2-2872109e-ec2b-4cd4-9aaa-da1cdb6c178a-oizdyqz" alt=""  src="/wps/wcm/connect/fastrackrt/2872109e-ec2b-4cd4-9aaa-da1cdb6c178a/app-store.svg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0L8F0647TQN6318K2-2872109e-ec2b-4cd4-9aaa-da1cdb6c178a-oizdyqz">
+                    </div>
+                    <div class="playstore">
+                        <img class="app_store_img" data-src="/wps/wcm/connect/fastrackrt/04d9f47d-609c-4da5-a7b8-bae40d394059/google-play-badge.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0L8F0647TQN6318K2-04d9f47d-609c-4da5-a7b8-bae40d394059-o4twnL6" alt=""  src="/wps/wcm/connect/fastrackrt/04d9f47d-609c-4da5-a7b8-bae40d394059/google-play-badge.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0L8F0647TQN6318K2-04d9f47d-609c-4da5-a7b8-bae40d394059-o4twnL6">
+                    </div>
+                </div>
+                <div class="follow_us_div">
+                    <h3 class="follow_us_h3">FOLLOW US ON </h3>
+                    <svg class="social_logo" id="Layer_11" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.67">
+                        <defs></defs>
+                        <title>Facebook</title>
+                        <path class="cls-1" d="M20.75,9.25H18a0.91,0.91,0,0,0-.68,1v2h3.4V15h-3.4v8.4H14.15V15H11.25V12.2h2.91V10.55A4,4,0,0,1,18,6.28h2.72v3Z"></path>
+                     </svg>
+                     <svg class="social_logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.67">
+                        <defs></defs>
+                        <title>Twitter</title>
+                        <path class="cls-1" d="M24.75,9.41a7.18,7.18,0,0,1-2.06.57,3.6,3.6,0,0,0,1.58-2A7.2,7.2,0,0,1,22,8.86a3.59,3.59,0,0,0-6.12,3.27,10.19,10.19,0,0,1-7.4-3.75,3.59,3.59,0,0,0,1.11,4.79A3.57,3.57,0,0,1,8,12.72v0a3.59,3.59,0,0,0,2.88,3.52,3.59,3.59,0,0,1-1.62.06,3.59,3.59,0,0,0,3.35,2.49,7.24,7.24,0,0,1-5.31,1.49A10.21,10.21,0,0,0,23,11.73q0-.23,0-0.46A7.29,7.29,0,0,0,24.75,9.41Z"></path>
+                     </svg>
+                     <svg class="social_logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.67">
+                        <defs></defs>
+                        <title>Google Plus</title>
+                        <path class="cls-1" d="M8.38,10.64a3.36,3.36,0,0,0,1.41,3,4,4,0,0,0,2.12.57h0.26a2.73,2.73,0,0,0,.56,1.9h0c-1.23,0-5.22.26-5.22,3.54s3.67,3.51,4.41,3.51h0.24A6.8,6.8,0,0,0,15,22.59a3.8,3.8,0,0,0,2.22-3.69,4.52,4.52,0,0,0-2-3.41,2.2,2.2,0,0,1-.94-1.2,1.59,1.59,0,0,1,.72-1,3.68,3.68,0,0,0,1.27-3c0-1.39-.18-2.32-1.29-2.91a3.92,3.92,0,0,1,.73-0.13c0.6-.08,1.48-0.17,1.48-0.66V6.47H12.81S8.38,6.63,8.38,10.64Zm7.06,8.57c0.08,1.34-1.06,2.32-2.78,2.45s-3.18-.66-3.26-2a2.21,2.21,0,0,1,.79-1.77A3.62,3.62,0,0,1,12.36,17h0.29A2.52,2.52,0,0,1,15.44,19.21ZM14.3,9.72c0.43,1.51-.22,3.09-1.25,3.38a1.35,1.35,0,0,1-.37.05,2.73,2.73,0,0,1-2.23-2.27,3.29,3.29,0,0,1,0-2A1.73,1.73,0,0,1,11.6,7.7,1.35,1.35,0,0,1,12,7.65C13.11,7.65,13.85,8.12,14.3,9.72ZM21.67,13V10.16H19.86V13H17v1.81h2.85v2.85h1.81V14.82h2.85V13H21.67Z"></path>
+                     </svg>
+                     <svg class="social_logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.67">
+                        <defs></defs>
+                        <title>Instagram</title>
+                        <path class="cls-1" d="M20.94,14.83a4.94,4.94,0,1,1-9.8-1H7.82v6.57A2.55,2.55,0,0,0,10.38,23H21.62a2.56,2.56,0,0,0,2.56-2.56V13.88H20.85A5,5,0,0,1,20.94,14.83Zm0.68-8.18H10.38A2.56,2.56,0,0,0,7.82,9.21V12H12A4.94,4.94,0,0,1,20,12h4.14V9.21A2.56,2.56,0,0,0,21.62,6.66Zm1.25,3.16a0.46,0.46,0,0,1-.46.46H21a0.46,0.46,0,0,1-.46-0.46V8.44A0.46,0.46,0,0,1,21,8h1.37a0.46,0.46,0,0,1,.46.46V9.81Zm-3.83,5a3,3,0,1,0-3,3A3,3,0,0,0,19,14.83Z"></path>
+                     </svg>
+                     <svg class="social_logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29.67">
+                        <defs></defs>
+                        <title>Youtube</title>
+                        <path class="cls-1" d="M8.58,22.16a4.61,4.61,0,0,1-1.32-.27,3.16,3.16,0,0,1-2-3,45,45,0,0,1-.07-7.41,12.42,12.42,0,0,1,.25-1.7A2.87,2.87,0,0,1,8,7.57c2.31-.16,4.63-0.3,7-0.32,2.47,0,4.94.09,7.41,0.16a14.29,14.29,0,0,1,1.71.17,2.8,2.8,0,0,1,2.53,2.51A24.94,24.94,0,0,1,27,15.31c0,1.42-.18,2.83-0.33,4.24A2.85,2.85,0,0,1,24,22.08c-2.43.14-4.85,0.23-7.28,0.33-0.44,0-.87,0-1.31,0m-1.44-11v6.73l5.47-3.36Z"></path>
+                     </svg>
+                </div>
+                <div class="need_held_div">
+                    <h3 class="need_help">NEED HELP?</h3>
+                    <p class="clickhere"><span class="click_here_span">click here</span>to chat with us on</p>
+                    <img class="whatsapp-logo" src="https://staticimg.titan.co.in/Common_Assets/Logo/WhatsApp_Logo.png" width="20px" height="20px">
+                </div>
+                <div class="terms_div">
+                    <div class="terms">TERMS & CONDITIONS</div>
+                    <div class="terms">PRIVACY POLICY</div>
+                </div>
+            </div>
+        </div>
+        <hr class="last_hr2">
+
+        <div class="last_payment_brands_logo">
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="payment_logos"></div>
+            <div class="rights">© 2022 Titan Company Limited. All Rights Reserved.</div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
