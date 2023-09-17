@@ -1,0 +1,515 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.nav_pre_container{
+    background: #f5f5f5;
+    height: 33px;
+    position:relative;
+    width:100%;
+   
+    
+}
+.top_nav{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 38px;
+    padding-left:36px;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+   
+}
+.top_nav_nike_logo{
+    padding-top:5px;
+}
+.top_nav_help_section{
+    display: flex;
+    justify-content:end; 
+    align-items: center; 
+    font-size: 12px;
+    font-weight: 500;
+}
+.top_nav_divider{
+   font-size: 12px;
+   padding-left:15px;
+   padding-right:15px;
+   position: relative;
+   top:0px;  
+}
+.top_nav_signin{
+    padding-right: 12px;
+}
+.second_top_nav{
+    height: 64px;
+    padding:0 38px;
+}
+.seconddiv_second_top_nav{
+    padding-top:4px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction:row;
+}
+.customeres_category{
+    width: calc(100% - 690px);
+    padding:2px;
+    height: 60px;
+    max-width: 1225px;
+    overflow: hidden;
+}
+.categories_btn{
+    display: inline-block;
+    background:transparent;
+    padding:12px 12px 18px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.searchbar{
+    width:180px;
+    height: 40px;
+    border-radius:20px;
+    display: flex;
+    background-color: #f5f5f5;
+}
+.lens_icon{
+    width:36px;
+    height: 40px;
+    padding:6px 4px;
+   color:black;
+   
+}
+.searchbar input{
+   
+   font-size: 16px;
+   line-height: 24px;
+   width:20px;
+   height: 20px;
+   visibility: visible;
+   width: 100px;
+   background-color: #f5f5f5;
+   position:relative;
+   top:10px;
+   outline:none;
+}
+.like_and_cart_div{
+   display: flex;
+   padding-left:20px;
+}
+.like_icon{
+    padding:6px;
+    margin-right: 6px;
+}
+.cart_icon{
+    padding:6px;
+    margin-left: 6px;
+}
+
+.nike_mainlogo{
+    position: relative;
+    left:-15px;
+    flex:1;
+   
+}
+
+.nike_main_logo_svg{
+    width: 100px;
+    height: 100px;
+}
+
+.hellonike_div{
+    background-color: #f5f5f5;
+    min-height: 58px;
+    padding-top:10px;
+    overflow:hidden;
+    text-align:center;
+    /* position: relative;
+    z-index:2 */
+}
+.hellonike_div span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.hellonike_div h6{
+    font-size:12px;
+    font-weight:400;
+    padding-top:5px;
+    text-decoration: underline;
+}
+
+.runnerimage_maindiv{
+margin-left:48px;
+margin-right:48px;
+width: 1344px;
+height: 700px;
+display:block;
+
+
+
+}
+.runner_image_seconddiv{
+    width:1344px;
+    height: 700px;
+    padding:0 8px;
+    overflow: hidden;
+
+}
+.image-media-img{
+   height: 700px;
+    position: relative;
+    left:-350px;
+}
+.first_image_writings_div{
+    position: absolute;
+    top:600px;
+    left:100px;
+    /* width:819.75px;
+    height: 209px; */
+    color:rgb(255,255,255);
+    
+}
+.firstimage_first_p{
+    margin-bottom:4px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-left:5px; */
+}
+.firstimage_h3{
+    margin-bottom:8px;
+    font-size:72px;
+    line-height: 60px;
+    
+}
+.firstimage_last_writing{
+margin-top:24px;
+font-size:20px;
+line-height: 28px;
+}
+.firstimage_button{
+    margin-top:24px;
+    /* padding:5px; */
+}
+.shop_button{
+    padding:15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.second_imagemain_div{
+    margin-top:84px;
+    margin-left:48px;
+    margin-right:48px;
+}
+.word{
+    padding:0 6px;
+    margin-bottom:26px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.sportsgirl_img{
+    width: 1344px;
+    height: 700px;
+    padding:0 6px;
+}
+.second_image_content{
+   margin-top:48px; 
+   margin-left:170px;
+   margin-right: 170px;
+   text-align: center;
+   
+    
+}
+.second_image_h3{
+    display: block;
+    margin-bottom:8px;
+    font-weight: 900;
+    font-size: 82px;
+    line-height: 60px;
+    letter-spacing: 0;
+    color: rgb(17, 17, 17);
+    letter-spacing: -8px;
+    flex-wrap: nowrap;
+    padding:0 80px;
+    
+ 
+}
+.second_image_p{
+    margin-top:24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.second_image_lastbtns{
+    margin-top:24px;
+    margin-bottom:5px;
+}
+.second_image_shopbtn{
+    padding:10px 30px;
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+}
+
+/* second section ends here */
+
+/* third section starts here */
+
+.third_image_section_maindiv{
+    margin-top:84px;
+    margin-left:48px;
+    margin-right:48px;
+}
+.third_image_top{
+    padding:0 6px;
+    margin-bottom:24px;
+}
+.third_image_main2photos{
+   display:flex;
+   justify-content: space-evenly;
+
+}
+
+.left_shoe_image{
+    width:98%;
+    height: 700px;
+    
+    
+}
+.third_image_left{
+    position: relative;
+}
+.third_left{
+    
+    position: absolute;
+    top:495px;
+    left:60px;
+    
+}
+.right_imageinbox_p{
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.right_imageinbox_h3{
+    margin-bottom:8px;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
+}
+.right_imageinbox_button{
+    padding:6px 20px;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top:24px;
+}
+
+.third_image_right{
+    position:relative;
+}
+.third_right{
+   
+    position: absolute;
+    top:495px;
+    left:60px;
+}
+.fourth_image_second_p{
+    margin-top:24px;
+    font-size: 16px;
+    line-height: 24px;
+   width:543px;
+   margin-left:50%;
+   transform: translate(-50%);
+}
+
+/* fifth section */
+.fifth_image_h3{
+    /* margin-top:24px; */
+    font-size:72px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing:-5px;
+}
+.fifth_image_firstp{
+margin-bottom: 4px;
+}
+/* sixth section starts here */
+.sixth_image_main3photos{
+    display: flex;
+    
+}
+
+.sixth_left_shoe_image{
+    display:block;
+    width: 98%;
+    height: 545px;
+   
+}
+.sixth_image_left, .sixth_image_center, .sixth_image_right{
+    position: relative;
+}
+
+.sixth_left,.sixth_center,.sixth_right{
+    position: absolute;
+    bottom:40px;
+    left:50px;
+   
+}
+
+.sixth_image_top_h2{
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.sixth_right_imageinbox_button{
+    padding:6px 20px;
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top:24px;
+    
+}
+/* seventh sectoin */
+.seventh_section_first_div{
+    margin-top:84px;
+    margin-bottom:84px;
+
+}
+.seventh_section_second_div{
+    margin:0 134.500px;
+    padding:0 20px;
+
+}
+.seventh_section_headings{
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    max-height: 1.8em;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 24px;
+}
+.seventh_section_topics_firstp{
+    min-width: 280px;
+    
+}
+.seventh_section_tablcontent_div{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.seventh_section_content_h6{
+    width:280px;
+    margin-bottom:12px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* footer starts here */
+.footer_first_div{
+    padding:40px 40px 0px;
+    background-color: black;
+    height: 296px;
+}
+.footer_second_div{
+    margin-bottom:0 -6 16px;
+    display: flex;
+    justify-content:space-between
+}
+.footer_third_div_left{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.footer_third_div_left_first{
+    display: flex;
+    flex-direction: column;
+    width:210px;
+    padding:0 5px;
+}
+.footer_left_first_firstcolumn,.footer_left_first_secondcolumn,.footer_left_first_thirdcolumn{
+    margin-bottom:3px;
+    text-decoration: none;
+    min-height: 28px;
+    cursor:pointer;
+}
+
+.footer_left_first_firstcolumn{
+    color:#f5f5f5;
+    font-size: 12px;
+    line-height: 2.333;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.footer_left_first_secondcolumn,.footer_left_first_thirdcolumn{
+    color: #7e7e7e;
+    font-size:10px;
+    font-weight: 400;
+    line-height: 2;
+    
+}
+.footer_third_div_right{
+    height: 300px; 
+    margin-right: 22px;
+}
+.social-link-icon{
+    background-color:black;
+    fill:#7e7e7e;
+    border-radius:20px;
+    margin-left:20px;
+   
+    
+}
+.company_policy_footer{
+    display: flex;
+    justify-content: space-between;
+    padding:12px 48px;
+    font-size: 14px;
+    line-height: 1.71;
+    color:white;
+    background-color: black;
+    font-weight: 100px;
+}
+.company_policy_footer_leftdiv{
+    display:flex;
+    align-items:center;
+    font-size: 12px;
+}
+.india{
+    margin:0 3px;
+}
+.footer_allrights_span{
+margin-left:26px;
+color:#757575;
+}
+.company_policy_footer_rightdiv{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    color:#757575;
+}
