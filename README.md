@@ -1,2 +1,3 @@
-# Netflix-clone
-This is is a Netflix landing page static clone useing html css 
+# Static-clones
+This repository containes static websites made with html and css and resources for it
+
