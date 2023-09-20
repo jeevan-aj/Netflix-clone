@@ -687,3 +687,24 @@ min-height: 110px;
     color:grey;
     text-align: end;
 }
+.go_top_first_div{
+   width:70px;
+   
+    position:fixed;
+    background-color: rgb(92, 162, 183);
+    padding:10px;
+    right:0px;
+    bottom:360px;
+    border-radius: 100px 100px 0px 100px;
+   
+}
+.go_top_div{
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.go_top_first_div:hover .go_top_div{
+    color:red;
+    
+}
