@@ -25,5 +25,39 @@
     color:white;
     width: 100%;
     display: inline-block;
+    
+    
 
+}
+.carousel-image{
+ object-fit: cover;
+}
+.carousel{
+    max-width: 1600px;
+    margin:0 auto;
+}
+@media (max-width:1209px){
+   .third-sectoin-contents{
+    font-size: 18px;
+    min-width: 400px;
+   }
+   .carousel-image{
+    min-height: 400px;
+   }
+}
+@media (max-width:610px){
+    .third-sectoin-contents{
+        font-size: 14px;
+        min-width:200px;
+        
+    }
+    .third_carousel_div{
+        top:45%;
+    }
+}
+
+/* third section starts here */
+
+.third_section_h1{
+    font-weight: 600;
 }
